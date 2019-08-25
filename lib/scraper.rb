@@ -5,3 +5,4 @@ html = open("https://flatironschool.com/")
 
 doc = Nokogiti::HTML(html)
 
+puts doc
